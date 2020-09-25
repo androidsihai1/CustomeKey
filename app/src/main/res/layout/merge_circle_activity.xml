@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_finsih"
+        android:text="关闭"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_merge_circle_view"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:text="合并为轮盘" />
+
+    <Button
+        android:id="@+id/btn_charge_circle_view"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btn_merge_circle_view"
+        android:text="轮盘拆分" />
+
+</RelativeLayout>
